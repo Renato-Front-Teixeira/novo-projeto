@@ -42,7 +42,6 @@ padding: 20px;
 margin: 0px 20px 30px 20px;
 position: relative;
 padding-bottom: 57%;
-
 }
 
 .video > iframe{
@@ -51,6 +50,10 @@ width: 80%;
 height: 80%;
 top: 10%;
 left: 8%;
+}
+
+.video-separar{
+    padding-bottom: 10px;
 }
 
 header{
@@ -103,7 +106,6 @@ main{
     min-width: 365px;
     max-width: 850px;    
     margin: auto;
-    margin-bottom: 20px;
     background-color: white;
 }
 
@@ -126,6 +128,7 @@ font-weight: normal;
 }
 main img {
 width: 100%;
+padding: 10px 0px;
 }
 main img.pequena {
     max-width: 450px;
@@ -170,6 +173,9 @@ aside ul {
     margin: auto;
     padding: 20px 10px;
 }
+aside p{
+    padding: 10px 0px 10px 10px;
+}
 
 aside strong{
    color: var(--cor4); 
@@ -183,15 +189,17 @@ footer{
     background-color: aquamarine;
     min-width: 365px;
     max-width: 850px;    
-    margin: 0;
+    margin: auto;
     color: black;
-text-align: center;
+    text-align: center;
+    padding-top: 20px;
 
     }
 footer > a {
     font: var(--cor0);
     text-decoration: none;
-color: var(--cor5)
+    color: var(--cor5);
+    
     }
 
 footer > a:hover {
@@ -201,3 +209,4 @@ footer > a:hover {
     .renato{
         color: var(--cor5);
     }
+ 
