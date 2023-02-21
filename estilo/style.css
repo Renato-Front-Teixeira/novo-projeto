@@ -186,13 +186,14 @@ aside a{
 }
 
 footer{
-    background-color: aquamarine;
+    background-color: rgb(237, 243, 241);
     min-width: 365px;
     max-width: 850px;    
     margin: auto;
     color: black;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     }
 footer > a {
@@ -205,9 +206,3 @@ footer > a {
 footer > a:hover {
     text-decoration: underline;
     }
-   
-    .renato{
-        color: var(--cor5);
-        text-decoration: none;
-    }
- 
