@@ -208,5 +208,6 @@ footer > a:hover {
    
     .renato{
         color: var(--cor5);
+        text-decoration: none;
     }
  
